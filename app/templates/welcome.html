@@ -1,0 +1,55 @@
+<!-- welcome/templates/welcome.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Django App!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #4CAF50, #2196F3);
+            color: white;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 0.5em;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        p {
+            font-size: 1.5em;
+            margin-bottom: 1em;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+        }
+        .button {
+            background-color: #ff5722;
+            border: none;
+            border-radius: 25px;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .button:hover {
+            background-color: #e64a19;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>AIVA</h1>
+    <p>AI-based Virtual Assistant untuk BPJS Kesehatan</p>
+    <a href="api/docs" class="button">Dokumentasi</a>
+</body>
+</html>
